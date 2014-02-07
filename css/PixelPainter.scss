@@ -1,28 +1,27 @@
-h1{
-	font-size: 80px;
-	color: #FF4D4D;
-	position: center;
-}
-
 body{
-	background-color: #33CC33;
-	#container{
-	#buttons{
-		float: right;
-		display: inline;
-		margin-left: 50px;
-		display: inline;
-	}
-	#canvas{
-		margin-left: 100px;
-		float:left;
-		position: relative;
-		display: inline;
-	}
-	#palette{
+	max-width: 1200px;
+	h1{
+		font-size: 80px;
+		color: #33CC33;
+	} //closes h1
+	#left{
 		float: left;
-		display: inline;
+		width: 20%;
+	#buttonContainer{
+		#buttons{
+		}//ends buttons
+	}//ends buttoncontainer
+	#palette{
 		margin-left: 30px;
-	}
-}
-}
+	} // closes palette
+	} //closes #left
+
+#container{
+	float: right;
+	width: 80%;
+	#canvas{
+		margin-left: 5px;
+		position: relative;
+		} // closes canvas
+	} // container closer	
+}// body closer

@@ -1,21 +1,16 @@
-h1 {
-  font-size: 80px;
-  color: #FF4D4D;
-  position: center; }
-
 body {
-  background-color: #33CC33; }
-  body #container #buttons {
+  max-width: 1200px; }
+  body h1 {
+    font-size: 80px;
+    color: #33CC33; }
+  body #left {
+    float: left;
+    width: 20%; }
+    body #left #palette {
+      margin-left: 30px; }
+  body #container {
     float: right;
-    display: inline;
-    margin-left: 50px;
-    display: inline; }
-  body #container #canvas {
-    margin-left: 100px;
-    float: left;
-    position: relative;
-    display: inline; }
-  body #container #palette {
-    float: left;
-    display: inline;
-    margin-left: 30px; }
+    width: 80%; }
+    body #container #canvas {
+      margin-left: 5px;
+      position: relative; }
