@@ -1,0 +1,57 @@
+# PIXELPAINTER
+
+## DESIGN NOTES
+I. What classes are Needed?
+	1. canvas grid class 
+		- determines the size of the grid and it's cells.
+	2. color palette class
+		- a secondary grid with a 1/3 of the size as the canvas
+		- color of the border of the cells
+	3. toolbar class
+		- determines functions of the buttons
+		- and the actions between the color palette
+	4. pixel class
+		- builds the properties of each cell which inherits from canvas grid
+		- color of the borders of the cells
+
+II. What data do they hold?
+	1. The canvas grid will have
+		- this.length
+		- this.width
+		- this.size(pixel)
+		- border size/color
+	2. The color palette
+		- this.length
+		- this.width
+		- this.size
+		- buttons/draggable (colors from to canvas)
+	3. The toolbar class
+		- reset button
+		- clear button(canvas)
+		- undo (button)
+	4. Pixel class
+		- this.size X(by) this.size
+		- border size and color
+
+III. What actions do they perform?
+	1. canvas grid will have a cell constructor for the grid
+	2. color palette will either be buttons/draggable
+	3. toolbar will have a button constructor to reset color
+		- clear button to erase the whole canvas
+		- undo button to undo recent color
+
+1. create a "grid" class that takes in the arguments Length, Width, and Size.
+	- Length determeines the x-axis of the grid.
+	- width determines the y-axis of the gird.
+	- size will determine the size of the square cell.
+2 create a constructor utilizing the grid class properties.
+	- Then creating a method that will utilize grid class properties.
+	- utilizing two loops to generate the grid frame.
+		- first for loop determining the x axis.
+				- each loop creates a div element.
+			- second loop determing the y axis.
+				- each loop creates a div element.
+- create a second constructor utilizing the grid class property s.
+	-  
+
+###
